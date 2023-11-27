@@ -1,0 +1,32 @@
+A typical HTTP request:
+GET / HTTP/1.1  - The first '/' sign indicates the path where the resource is stored on the web server
+Host: developer.mozilla.com - headers
+Accept-language: en - headers
+
+A typical HTTP response:
+HTTP/1.1 200 OK - HTTP version and status code
+xxx - other information
+
+Status codes:
+Informational: 100 - 199
+Successful: 200 - 299
+Redirection: 300 - 399
+Client error: 400 - 499
+Server error: 500 - 599
+
+Commonly used HTTP methods:
+GET - retrieve
+POST - send
+PUT - update
+DELETE - remove
+
+HTTP request can also include an optional request body, usually with the POST and PUT methods to transmit data:
+e.g. 
+POST /users HTTP/1.1
+Host: example.com
+
+{
+ "key1":"value1",
+ "key2":"value2",
+ "array1":["value3","value4"]
+}
