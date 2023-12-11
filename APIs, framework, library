@@ -1,0 +1,10 @@
+Framework: like Spring, is a structure instructing you how to develop your software
+Library: a piece of reusable code, used to realize a functionality
+APIs: some common APIs - browser API, REST API, sensor-based API. APIs are often the bridge between different components and systems(earns API the name of gateway or middleware).
+DOM API: turns the HTML document into a tree of nodes that are represented as JS objects.
+REST API(or RESTful) provides data for popular web and mobile apps.
+Sensor-based APIs: used in IoT, which communicates information between different objects.
+RESTful API: a web server that provides responses to requests. GET/POST/DELETE/PUT data.
+
+APIs use endpoints to specify how different resources can be accessed. The endpoint is built into the URL when accessing the API.
+Two common forms of API responses are: full webpages, and a data form based on JS called JSON.
