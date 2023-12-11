@@ -1,0 +1,5 @@
+Console tab: outputs JavaScript logs and errors from your web application.
+Sources tab: shows all contents resolved for the current page. HTML, CSS, JS, images, videos.
+Network tab: shows timeline and HTTP requests and responses from the web page.
+Performance tab: shows what the web browser is doing over time.
+Elements tab: shows a page's rendered HTML
