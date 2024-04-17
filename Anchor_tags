@@ -1,0 +1,4 @@
+Anchor tags create hyperlinks to link pages together.
+Example:
+<a href="location.html">Our Location</a>
+In this case, the '<a href="location.html"></a>' part is the anchor tag which creates a hyperlink that links to the location.html file.
