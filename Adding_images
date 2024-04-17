@@ -1,0 +1,4 @@
+Adding images to a webpage with HTML. Use the <img/> tag
+<img src="felafel.jpeg" width="240" height="135" alt="A felafel" />
+
+alt is not shown anywhere on the screen, but it will help the search engine and people with disabilities
