@@ -1,0 +1,20 @@
+When a user enters data on a website, an HTML form submits an HTTP request containing the data to the server.
+Forms can be defined using HTML form tags.
+<form></form>
+Forms also have an optional attibute called Action. Action specifies the URL or path that the form should submit the request to. E.g. <form action="/registration" method="POST"></form>
+If the action is not specified, the form will submit the request to the same path as the current webpage.
+
+There's also a form method. With the form method, you can specify the HTTP method to use for the HTTP request. There are two HTTP methods to submit the form data,
+GET and POST.
+
+Text field. The fields of a form are specified by input tags. <input type="text" name="username" /> ONLY FOR SINGLE-LINE TEXT INPUT
+You can also add a label tag to make it look nicer. <label for="username">Username:</label><br>
+In HTML, password field is masked for security concerns. <input type="password" />
+Lastly, you need to add a submit field to complete the form. <input type="submit" />
+Other input types: checkbox <input type="checkbox" name="dog" value="Dog" />
+                   radio buttion <input type="radio" name="right" value="Right" /> radio button is a single button that automatically unchecks all other buttons when selected
+                   number <input type="number" name="age" />
+                   email <input type="email" name="email" />
+                   file <input type="file" name="file" />
+Multi-line input: <textareaname="multiline" rows="5"></textarea>
+Drop-down switch list: <select name="food"> <option value="chocolate">Chocolate</option> <option value="ice_cream">Ice cream</option> </select>
