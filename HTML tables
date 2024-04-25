@@ -1,0 +1,5 @@
+Use HTML to work with data in tables. HTML tables.
+<table></table> marks the start and end of the table.
+<tr></tr> table row tags.
+<td></td> table data tags.
+<th></th> table head tags.
