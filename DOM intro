@@ -1,0 +1,19 @@
+Users need to interact with the objects on the webpage such as the reaction icons, or the comment button.
+
+An HTML document must be represented in a certain way so that JavaScript code can query and update it. We use Document Object Model(DOM) to do this.
+
+When your browser receives an HTML page, it constructs a DOM to represent it. DOM is a tree structure of the objects.
+
+The DOM has a series of objects, each representing a single HTML document.
+                        HTML
+                      /      \
+                  head        body
+                    |          /  \
+                  title     div    div
+                    |       |      |
+                  text      h1     p
+                            |      |
+                          text    text
+
+
+Web accessibility: 
