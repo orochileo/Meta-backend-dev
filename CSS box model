@@ -1,0 +1,17 @@
+When the HTML and CSS files are downloaded, the browser needs to know how to display the elements on the screen.
+To do this, it allocates a rectangle or box to each element, CSS rules are applied to the boxes of the elements.
+Every box is consisted of four parts: content, padding, border, margin. Going from the center to the outside.
+You can use CSS rules to control the content sizes: width: 1px; min-width:1px; max-width:2px; height:1px; min-height:1px; max-height:2px;
+
+The padding extends the content size: padding box width, padding box height. The thickness of the padding is determined by padding-top, padding-bottom, padding-left, padding-right.
+Padding box width can be calculated as content width + padding left-side + padding right-side.
+Padding box height can be calculated as conteng height + padding top-side + padding bottom-side.
+
+The border goes around the padding and content. Border box width, border box height. There are different types of borders, solid border, dashed border, dotted border, double border.
+Border box width can be calculated as padding width + border left-side + border right-side.
+Border box height can be calculated as padding height + border top-side + border bottom-side.
+
+The margin extends the border area to separate the element from its neighboring elements. Margin box width, margin box height.
+CSS rules: margin-top:4px; margin-bottom:3px; margin-left:1px; margin-right:2px;
+Margin box width can be calculated as border box width + margin left-side + margin right-side.
+Margin box height can be calculated as border height + margin top-side + margin bottom-side.
