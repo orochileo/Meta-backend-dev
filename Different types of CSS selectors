@@ -1,0 +1,43 @@
+1. Element selectors: HTML: <p>Once upon a time...</p> | <p>In a hidden land...</p>     CSS: p { color: blue; }
+2. ID selectors: HTML: <span id="latest">New!</span>    CSS: #latest { background-color: purple; }
+3. Class selectors: HTML: <a class="navigation">Go Back</a> | <p class="navigation">Go Forward</p>     CSS: .navigation { margin: 2px; }
+4. Element with Class Selector: HTML: <p class="introduction"></p>   CSS: p.introduction { margin: 2px; }
+5. Descendant Selectors: 
+HTML:
+<div id="blog">
+  <h1>Latest News</h1>
+  <div>
+    <h1>Today's Weather</h1>
+    <p>The weather will be sunny</p>
+  </div>
+  <p>Subscribe for more news</p>
+</div>
+<div>
+  <h1>Archives</h1>
+</div>
+CSS:  #blog h1 { color: blue; }
+The CSS rule will select all h1 elements that are contained within the element with the ID blog. The CSS rule will not apply to the h1 element containing the text Archives.
+The structure of a descendant selector is a CSS selector, followed by a single space character, followed by another CSS selector.
+Multiple descendants can also be selected. For example, to select all h1 elements that are descendants of div elements which are descendants of the blog element, the selector is specified as follows.
+CSS:  #blog div h1 { color: blue; }
+
+6. Child selectors: Child selectors are more specific than descendant selectors. They only select elements that are immediate descendants (children) of a selector (the parent).
+HTML:
+<div id="blog">
+  <h1>Latest News</h1>
+  <div>
+    <h1>Today's Weather</h1>
+    <p>The weather will be sunny</p>
+  </div>
+  <p>Subscribe for more news</p>
+</div>
+
+If you wanted to style the h1 element containing the text Latest News, you can use the following child selector:
+
+CSS:  #blog > h1 { color: blue; }
+
+This will select the element with the ID blog (the parent), then it will select all h1 elements that are contained directly in that element (the children). The structure of the child selector is a CSS selector followed by the child combinator symbol > followed by another CSS selector.
+Note that this will not go beyond a single depth level. Therefore, the CSS rule will not be applied to the h1 element containing the text Today's Weather.
+7.:hover Pseudo-Class: A special keyword called a pseudo-class allows developers to select elements based on their state. Don't worry too much about what that means right now. For now, let's look at how the hover pseudo-class allows you to style an element when the mouse cursor hovers over the element.
+The simplest example of this is changing the color of a hyperlink when it is hovered over. To do this, you add the :hover pseudo-class to the end of the selector. In the following example, adding :hover  to the a element will change the color of the hyperlink to orange when it is hovered over.
+CSS:  a:hover { color: orange; }
