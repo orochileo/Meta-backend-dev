@@ -1,0 +1,12 @@
+HTML being the frame and the structure of a webpage.
+CSS is the paint, wallpaper, fixtures, artwork, and overall style or look and feel.
+CSS tells the web browser how to display HTML elements on screen.
+
+Five elements essential to CSS:
+1. A declaration block: starts with a left curly bracket and ends with the matching right curly bracket. In between these curly brackets are the style declarations.
+2. Selector: Indicates which HTML element or elements we want to style.
+3. Property and value:  background-color: grey
+
+To link a CSS file to index.html, you need to declare it in the head tag. You need to use a link tag <link rel="stylesheet" href="style.css"/>
+If I want it to only apply to one element, I'll add an id tag to the element I want to select, then apply it in the CSS rule. <h1 id="header1">Chapter One</h1>, then in the style.css,
+#header1 { color : green }
