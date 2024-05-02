@@ -1,0 +1,15 @@
+Libraries and frameworks are also referred to as dependencies.
+One popular library you can use to develop User Interfaces is the Bootstrap library.
+
+Add CSS library to HTML head. <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+Add JavaScript library to HTML body using script element. <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+You can add a button in your HTML body. <button type="button" class="btn btn-primary">Click this button!</button>
+
+If your dependency also depends on other libraries or frameworks, you will get a dependency tree.
+A package manager is a tool the automatically downloads and installs your dependencies. We also refer to dependencies as packages.
+Most popular package manager is NPM(Node Package Manager).
+
+Now all my dependencies are downloaded, I need to include them in my HTML file. It's not possible to add them all to my HTML file. So we need a bundling tool.
+A bundling tool automatically combines web resources into a single file. If it's too large, it will automatically separate them into smaller bundles.
+Gulp and Webpack are two common bundling tools.
