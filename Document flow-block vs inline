@@ -1,0 +1,20 @@
+The web browser has a normal way of calculating the position of HTML elements on the screen called document flow.
+Two main categories: block and inline.
+A block level element will occupy the full horizontal width of its parent element and the vertical height of its content. Each block level element will have a new line before and after.
+Inline elements only occupy the width and height of their content. They don't appear on a new line, hence the name inline. Multiple inline elements can form a row of elements.
+
+Block level elements:
+<div></div>
+<form></form>
+<h1></h1>...
+
+Inline elements:
+<a href="index.html"></a>
+<img src="felafel.jpeg">
+<input>
+<label></label>
+<b></b>
+<i></i>
+<em></em>
+<span></span>
+
