@@ -1,0 +1,16 @@
+Responsive design allows the automatic adjustment for different devices.
+
+Responsive design is a combination of 3 techniques:
+Flexible grids
+Fluid images
+Media queries
+
+Flexible grids are made of columns, gutters and margins. The space between the columns is called gutter, the spaces between the content and the left and right edges of the screen are called margins.
+Flexible grids are not pixel based, providing flexibility. They are defined in percentages.
+
+Fluid images
+
+Media queries allow developers to query the display size orientation and aspect ratio to conditionally apply CSS rules.
+
+When combining these three techniques, you have a responsive grid which automatically adjusts proportions.
+The pixel values specified is often referred to as the breakpoint. A breakpoint can work with fixed grid, fuild grid, and hybrid grid.
