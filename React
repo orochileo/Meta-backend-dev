@@ -1,0 +1,27 @@
+React is the most popular JavaScript library. Developers use React to develop single-page applications and you can also develop mobile applications with React Native.
+When you develop an app, you can choose to use React to develop the User Interface. When developing an app, you must consider the navigation and how the app will request 
+data from a web server. Therefore, React is used in conjunction with other JS libraries during development.
+
+The key concept behind React is that it allows you to define components that you can combine to build a web application. It's like modular homes where you use existing
+components to assemble. React component is a small piece of a User Interface.
+This allows isolated development, isolated testing, and re-using components.
+
+How do React components turn into the elements on the webpage that you use?
+When your web browser receives an HTML page, it constructs a DOM(Document Object Model) to represent it. But updating the DOM is considered expensive.
+
+A Reace element has a one-to-one relationship to an HTML element that is displayed on the webpage. React keeps track of which HTML element need to be updated by using
+virtual DOM.
+When React builds out its tree of components, it builds out its own DOM in memory called the virtual DOM. The virtual DOM is a representation of the browser DOM that
+is kept in memory. React uses this virtual DOM to update the browser DOM, only when it needs to.
+What happens when you change an element?
+1) The virtual DOM is updated.
+2) React compares the virtual DOM to the previous version of the virtual DOM and determines which element changed.
+3) The changed elements, and ONLY those elements are updated in the browser DOM.
+4) Changes on the browser DOM cause the displayed webpage to change.
+This process is called reconciliation.
+
+Component Hierarchy
+Every React application contains at least one component, the root component or app component. Components are added to the app component to build out a tree structure
+of components that make up the application.
+The app component is the entire webpage. The app component has two child components, the NavBar component for the navigation bar and the Page component.
+You can reuse the components in different places.
