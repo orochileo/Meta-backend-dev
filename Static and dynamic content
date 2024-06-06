@@ -1,0 +1,11 @@
+When you shop online, you will always get recommendations based on personal taste. How do they do that?
+
+Static content is files that the server transfers just as they are stored on the web server, such as videos or images.
+Dynamic content is generated when the HTTP request is made. They can be generated based on input from the user, or when you visit a news website,
+it would be based on current date. 
+
+How are dynamic contents generated? Actually a web server communicates with application server/backend, the application server generates the dynamic
+content and send it back to web server and the web server will send it back to the user's browser.
+
+Application server would 1)run application logic; 2)communicate with database; and 3)check permissions.
+Generating dynamic content in real-time is time consuming. So they used a technique called CACHING.
