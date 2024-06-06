@@ -1,0 +1,20 @@
+Single-page application, used to allow for more flexibility and a user-friendly, mobile-friendly experience.
+SPA: Only ONE HTML PAGE that gets sent from the server to the browser, and that page will update its content as your users interact with your website.
+An SPA allows users to interact with the website without the application needing to download entire new webpages. Instead, it rewrites the current webpage
+as the user interacts with it.
+
+An SPA has TWO approaches to serving code and resources. 1) Bundling; 2) Lazy loading.
+With bundling, when the browser requests the application, the server returns and loads all necessary HTML, CSS, and JS immediately.
+With lazy loading, when the browser requests the application, the server returns and loads only the minimum HTML, CSS, and JS immediately. Additional resources are
+downloaded as required.
+
+In a traditional webpage, if you want to add a button that suggests a random new movie after clicking, the request will be sent to the web server, and the web server
+will return the whole new HTML page for the browser to render.
+However, in an SPA webpage, the browser will send a POST request to the web server, and the web server will return a JSON object. The application reads the object and
+updates by displaying the text of the movie name.
+
+What if you want to change the majority of the webpage? Say, a two-page website.
+In a traditional webpage, when the user clicks a profile link, the web browser sends the request to the web server, and the web server generates the entire HTML page
+and sends it back to the browser. The web browser then renders a new webpage.
+In an SPA, different pages are broken into templates, also known as views. Each view will have HTML code that can be updated by the application. The web browser sends
+the request to the web server and the web server sends back a JSON object. The JSON object contains only the data to be displayed, and the SPA will update the HTML.
