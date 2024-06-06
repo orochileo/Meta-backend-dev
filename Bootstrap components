@@ -2,3 +2,8 @@ You can use Bootstrap's components to organize your layout.
 Examples: <div class="card"> then add img under it. Then <div class="card-body"> to add the body.
 
 You can first add a h2 tag <h2 class="card-title">Fried Calamari</h2> then add a p tag for text <p class="card-text">Squid, buttermilk.</p>
+
+You can even add a badge to specific tags. <h2 class="card-title">Fried Calamari <span class="badge bg-primary">New!</span></h2> where the bg-primary refers to the background color as the primary
+color of bootstrap---blue.
+
+You can add an alert to notify customers. <div class="alert alert-info" role="alert">Try our new Fried Calamari!</div>
