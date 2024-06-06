@@ -1,0 +1,4 @@
+You can use Bootstrap's components to organize your layout.
+Examples: <div class="card"> then add img under it. Then <div class="card-body"> to add the body.
+
+You can first add a h2 tag <h2 class="card-title">Fried Calamari</h2> then add a p tag for text <p class="card-text">Squid, buttermilk.</p>
