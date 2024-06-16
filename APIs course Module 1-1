@@ -1,0 +1,29 @@
+Your webpage interaction relies on an API to give you access to another app's functionality or to retrieve information.
+An API(Application Programming Interface) is a gateway to backend data.
+APIs allow different apps and services to exchange information or allow access to functionality.
+
+When designing an API, it is important to consider who your end user is. Another thing to consider is who are the users 
+who are going to be accessing the data and API and also your services. Be sure to add a layer of security in the form of
+credentials to your request in order to preserve that integrity.
+
+HTTP is the most widely used communication protocols for transferring data across the internet.
+HTTP: the client sends a request to the web server, the web server processes it and send it back to the user.
+HTTPS: the client browser encrypts the request, send it to the web server, the web server decrypts it and process it. Then,
+the web server encrypts the result and send it back to the user, the user's browser decrypts the result and render it.
+
+HTTP methods: GET(retrieve), POST(create), PUT(update), PATCH(partially update), DELETE(remove).
+HTTP requests consist of these parts: Version type, URL, Method, Request headers, Body(optional)
+
+What is an HTTP Body? When you submit a form like your username and password to sign into a website, that data is passed to the
+web server as the HTTP body as either a raw JSON string or a form URL encoded string.
+What are HTTP headers? They are a core part of every HTTP request and may contain extra information that helps the server make 
+some decisions on how to present the content. Examples of HTTP request headers are cookies, user-agents, and referrers.
+
+HTTP response consists of information that the browser uses to properly display the content and the response body.
+The response contains the resource that was requested. It also contains information like the length of the content, content type, 
+and headers like cookies. It also contains Etags, the time the content was last modified, and HTTP status codes.
+100-199 Informational
+200-299 Successful
+300-399 Redirection
+400-499 Client error
+500-599 Server error
